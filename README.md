@@ -15,16 +15,11 @@ Purpose
 
 
 Requirements
-Get your own Django secret key
-Create your own Django app
-Copy secret key
 Paste key into this project's secret key location at settings.py or in your own environment.
-API key is required if you want to use data from IEX cloud.
-Create free account at https://iexcloud.io/.
-Real-time data is free, however it is limited. You can use unlimited simulated data for free.
-API key is required to receive news (from news.html) via Stock News API.
-Start a free trial at https://stocknewsapi.com.
-Or uncomment the url in the "views.py" file for news "https://newsapi.org," and
-Create free account at https://newsapi.org.
-Use pipenv to install python dependencies for the backend.
 
+
+-----API key is required if you want to use data from IEX cloud.
+
+
+   1.Create free account at https://iexcloud.io/.
+  2. Real-time data is free, however it is limited. You can use unlimited simulated data for free.
